@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8"
-    <title><h1>Моя первая страница</h1></title>
+    <meta charset="UTF-8" />
+    <title>Заголовок</title>
   </head>
     <body>
-      <p>
-         <a href="about/index.html">Об авторе</a>
-      </p>
-    </body>
+    <p>2 абзаца
+    <p>из предыдущего ДЗ.
+    <p> 2 специальных символа &#163; &#8364</p>
+    <p>2 emoji &#128512; &#128515; </p>
+    <img src="images/1.jpg" alt="Картинка с космосом">
+    <ol>
+      <li>Нумерованный список</li>
+      <li>Нумерованный список продолжение</li>
+        <ul>
+          <li>Маркированный список внутри нумерованного</li>
+        </ul>
+      <li>Нумерованный список 2</li>
+    </ol>
+    <table border="1" width="50">
+      <thead><th colspan="3">Заголовок таблицы</th></thead>
+        <tbody>
+        <tr>
+          <td>ячейка</td>
+          <td rowspan="2"> ячейка</td>
+          <td>ячейка</td>
+        </tr>
+        <tr>
+          <td>ячейка</td>
+          <td>ячейка</td>
+        </tr>
+
+        </tbody>
+          <tfoot>
+          <td>Resultat</td>
+          </tfoot>
+    </table>
+   <br>
+    <form action="" method="get">
+      <fieldset><legend>Legend</legend><label for="name">Name</label>
+      <br><input type="name" id="name>" placeholder="Name"></br>
+      <label for="email">Email</label>
+      <br><input type="email" id="email"></br>
+      <label for="password">Password</label>
+      <br><input type="password" id="password"/> </br>
+      <div><input type="range" min="1" max="10"></div>
+      <div><input type="checkbox">Checkbox</div>
+      <div><input type="radio">radio</div>
+      <div><textarea></textarea></div>
+      <div><input type="select"></div>
+      <div><input type="submit"></div>
+      </fieldset></form>
+    <hr></body>
 </html>
